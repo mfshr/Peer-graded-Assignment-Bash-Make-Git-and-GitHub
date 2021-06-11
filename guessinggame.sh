@@ -3,7 +3,7 @@
 
 function congrats {
 
-	echo "Congratulations! You got the right answer!"
+	echo "Congratulations! You have guessed the correct answer."
 
 }
 
@@ -41,11 +41,11 @@ do
 
 	then
 
-		echo "you guessed a number too high"
+		echo "Your guessed number is too high"
 
 	else
 
-		echo "you guessed a number too low"
+		echo "Your guessed number is too low"
 
 	fi
 
